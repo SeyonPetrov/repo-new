@@ -28,7 +28,6 @@ class RandCircle(Ui_MainWindow, QMainWindow):
             pai.end()
 
     def painter(self, pai):
-        n = 0
         pai.setBrush(QColor(raan(), raan(), raan()))
         m = rand()
         n = rand()
